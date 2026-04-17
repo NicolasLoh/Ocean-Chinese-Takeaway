@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ocean Chinese Takeaway</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #5fd0df, #0b5fa5);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #ffe600;
+    margin-top: 5px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.95);
+    color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #0b5fa5;
+}
+
+.call-btn {
+    display: block;
+    background: #ffe600;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.notice {
+    background: #ffe600;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.menu img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #eee;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>OCEAN</h1>
+    <p>Chinese & Thai Hot Meals To Take Away</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📍 Location</h2>
+        <p>1 Uttoxeter Road, Longton<br>
+        Stoke-on-Trent, ST3 1NX</p>
+    </div>
+
+    <div class="card">
+        <h2>⏰ Opening Hours</h2>
+        <p>
+        Sunday – Thursday: 5:00pm – 10:00pm<br>
+        Friday – Saturday: 5:00pm – 11:00pm<br>
+        Monday: Closed
+        </p>
+    </div>
+
+    <a class="call-btn" href="tel:01782593888">
+        📞 Call Now: 01782 593 888
+    </a>
+
+    <div class="notice">
+        💵 Cash is preferred — thank you for supporting local!
+    </div>
+
+    <div class="card menu">
+        <h2>📋 Our Menu</h2>
+        <img src="menu.jpg" alt="Takeaway Menu">
+    </div>
+
+</div>
+
+<footer>
+    © Ocean Chinese Takeaway
+</footer>
+
+</body>
+</html>
